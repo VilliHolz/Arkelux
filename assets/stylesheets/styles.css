@@ -12,8 +12,8 @@
 
 :root {
   --color-default: #222222;
-  --color-primary: #f85a40;
-  --color-secondary: #f85a40;
+  --color-primary: #8110a6;
+  --color-secondary: #8110a6;
 }
 
 :root {
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #f85a40;
+  color: #8110a6;
   text-decoration: none;
 }
 
@@ -304,7 +304,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #8110a6;
 }
 
 .sticked-header-offset {
@@ -781,7 +781,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/cta-bg.jpg") center center;
+  background: linear-gradient(rgb(67 25 143 / 80%), rgba(0, 0, 0, 0.8)), url("../images/cta-bg.jpg") center center;
   background-size: cover;
   padding: 150px 60px;
   border-radius: 0px;
@@ -1214,14 +1214,13 @@ section {
   margin-bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero-bg.jpg) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/fondo_principal.png) center center;
   background-size: cover;
   padding: 60px 0 0 0;
 }
@@ -1356,7 +1355,7 @@ section {
 }
 
 .hero .icon-box .title a {
-  color: #f85a40;
+  color: #8110a6;
   transition: 0.3s;
 }
 
